@@ -11,5 +11,9 @@
     "en": "English",
     "pt": "Portuguese",
     "ppt": "Guno"
+  },
+  "points": {
+    "get": "You have ",
+    "point": " points"
   }
 }

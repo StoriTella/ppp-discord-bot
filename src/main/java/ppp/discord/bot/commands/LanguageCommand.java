@@ -47,7 +47,7 @@ public class LanguageCommand implements Command<MessageCreateEvent> {
 
     public Mono<Void> changeLanguage(MessageCreateEvent event) {
         Message eventMessage = event.getMessage();
-        if (LanguageUtil.changeLanguage(eventMessage.getContent().split(" ")[2])) {
+        if (eventMessage.getContent().split(" ").length >= 3 && LanguageUtil.changeLanguage(eventMessage.getContent().split(" ")[2])) {
             return Mono.just(eventMessage)
                     .flatMap(Message::getChannel)
                     .flatMap(channel -> channel.createMessage(LanguageUtil.getString(changeStr)))

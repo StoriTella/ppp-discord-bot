@@ -11,5 +11,9 @@
     "en": "Ingles",
     "pt": "Portugues",
     "ppt": "Gunao"
+  },
+  "points": {
+    "get": "Tens: ",
+    "point": "pontos"
   }
 }
