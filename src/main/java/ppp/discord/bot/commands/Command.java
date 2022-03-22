@@ -1,7 +1,6 @@
-package ppp.discord.bot.model;
+package ppp.discord.bot.commands;
 
 import discord4j.core.event.domain.Event;
-import org.springframework.beans.factory.annotation.Value;
 import reactor.core.publisher.Mono;
 
 public interface Command <T extends Event>  {

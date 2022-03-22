@@ -1,2 +1,7 @@
-token: 'OTU1NDc0OTcyMTk1ODMxODQ4.YjiNaQ.U7cE0lGKJa7qpZRT-K87TOFMSmI'
+token: ''
 prefix: '%'
+defaultLang: 'en'
+langKey: 'lang'
+langKeyGreet: 'greet'
+langKeyChange: 'change'
+pingKey: 'ping'

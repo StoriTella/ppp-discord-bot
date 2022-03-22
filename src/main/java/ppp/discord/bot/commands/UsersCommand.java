@@ -1,11 +1,10 @@
-package ppp.discord.bot.model;
+package ppp.discord.bot.commands;
 
 import discord4j.core.event.domain.message.MessageCreateEvent;
 import discord4j.core.object.entity.Message;
-import org.springframework.stereotype.Component;
 import reactor.core.publisher.Mono;
 
-public class PingPongCommand implements Command<MessageCreateEvent>{
+public class UsersCommand implements Command<MessageCreateEvent>{
     @Override
     public Mono<Void> execute(MessageCreateEvent event) {
         Message eventMessage = event.getMessage();
