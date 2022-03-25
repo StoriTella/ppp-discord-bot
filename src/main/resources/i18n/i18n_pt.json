@@ -1,0 +1,19 @@
+{
+  "operations": {
+    "success": "Sucesso",
+    "error": "Erro",
+    "pong": "pong",
+    "notSuported": "Nao suportado"
+  },
+  "lang": {
+    "greet": "Ola amigos",
+    "change": "Mudar a linguagem para ",
+    "en": "Ingles",
+    "pt": "Portugues",
+    "ppt": "Gunao"
+  },
+  "points": {
+    "get": "Tens: ",
+    "point": "pontos"
+  }
+}
